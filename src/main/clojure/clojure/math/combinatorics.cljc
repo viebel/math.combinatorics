@@ -11,11 +11,11 @@ sequences for common combinatorial functions. (See the source code
 for a longer description.)"}
   clojure.math.combinatorics
   (:require-macros [clojure.math.macros :refer [reify-bool]])
-  #?(:cljs (:require [cljs.pprint :refer [cl-format]]))
+  ;#?(:cljs (:require [cljs.pprint :refer [cl-format]]))
   (:refer-clojure :exclude [update]))
 
 #?(:cljs
-    (def format cl-format))
+    (def format println))
 
 (comment
 "  
